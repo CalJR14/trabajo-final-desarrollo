@@ -1,0 +1,96 @@
+body {
+    background-image: url('/img/invitario.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container {
+    border: 2px solid #000000;
+    max-width: 600px;
+    margin: auto;
+    background: rgba(248, 243, 243, 0);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #000000;
+}
+
+input {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #ee4d0d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.personalizo {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #22ce30;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #f35811;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000000;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+td button {
+    padding: 5px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px; /* Espacio entre los botones */
+}
+
+td button:hover {
+    background-color: #d32f2f;
+}
+
+/* Estilo para el mensaje cuando no hay productos */
+#allProductsBody td {
+    text-align: center;
+    font-style: italic;
+    color:  #000000;
+}
+
+

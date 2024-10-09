@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title> Gestión de Inventario</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Inventario</h1>
+        <input type="text" id="productName" placeholder="Nombre del producto">
+        <input type="number" id="productQuantity" placeholder="Cantidad">
+        <button class ="personalizo"onclick="addProduct()">Agregar Producto</button>
+
+        <h2>Lista de Productos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre del Producto</th>
+                    <th>Cantidad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="allProductsBody">
+                <tr>
+                    <td colspan="3" style="text-align: center;">No hay productos en el inventario.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
